@@ -1,0 +1,17 @@
+{
+  "name" : "sashaproject",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "4a3c366f2d0d0eaf034bfa649124768df7cfe813",
+  "dependencies" : [ {
+    "name" : "tgbot-cpp",
+    "version>=" : "1.6"
+  }, {
+    "name" : "cpr",
+    "version>=" : "1.10.2+3",
+    "$comment" : "    # this is heuristically generated, and may not be correct\n\n    find_package(cpr CONFIG REQUIRED)\n\n    target_link_libraries(main PRIVATE cpr::cpr)\n"
+  }, {
+    "name" : "nlohmann-json",
+    "version>=" : "3.11.2",
+    "$comment" : "    find_package(nlohmann_json CONFIG REQUIRED)\n\n    target_link_libraries(main PRIVATE nlohmann_json::nlohmann_json)\n"
+  } ]
+}
